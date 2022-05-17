@@ -1,0 +1,39 @@
+{
+  "eslint.format.enable": true,
+  "editor.quickSuggestions": {
+      "strings": true
+  },
+  "editor.codeActionsOnSave": {
+  
+      "source.fixAll.eslint": true 
+  },
+  "eslint.validate": ["vue","html","javascript","typescript"],
+  "[vue]": {
+      "editor.defaultFormatter": "octref.vetur"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.tabSize": 2,
+  "workbench.colorTheme": "Visual Studio Light",
+  "editor.fontFamily": "Input Mono, Fira Code, monospace",
+  "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss06', 'zero'",
+  "editor.fontSize": 20,
+  "[typescript]": {
+      "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "files.autoSave": "afterDelay",
+  "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "files.associations": {
+      "*.cjson": "jsonc",
+      "*.wxss": "css",
+      "*.wxs": "javascript"
+  },
+  "emmet.includeLanguages": {
+      "wxml": "html"
+  },
+  "minapp-vscode.disableAutoConfig": true,
+  "workbench.iconTheme": "vscode-icons",
+  "window.zoomLevel": -1,
+  "git.autofetch": true
+}
